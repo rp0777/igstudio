@@ -2,5 +2,19 @@
   width: 475px;
   height: 155px;
   padding-left: 87px;
+  display: flex;
+  flex-direction: column;
   border-left: solid #333;
+  gap: 16px;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.content {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
 }

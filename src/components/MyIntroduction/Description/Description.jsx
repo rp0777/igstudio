@@ -4,11 +4,11 @@ import styles from "./Description.module.css";
 const Description = () => {
   return (
     <div className={styles.description}>
-      <h3>Criminal Lawyer</h3>
-      <p>
+      <div className={styles.heading}>Criminal Lawyer</div>
+      <div className={styles.content}>
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequatduis enim velit mollit Exercitation.
-      </p>
+      </div>
     </div>
   );
 };
