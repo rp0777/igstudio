@@ -1,0 +1,50 @@
+.card {
+  width: 359px;
+  height: 377px;
+  padding-left: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+}
+
+.active {
+  background: #2e2e2e;
+}
+
+.inactive {
+  background-color: #1d1d1d;
+}
+
+.profile {
+  width: 101px;
+  height: 101px;
+  margin: 28px 0px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.successRate {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 26px;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 0;
+  width: 121px;
+  height: 45px;
+  border-radius: 23.5px;
+  border-style: none;
+  background-color: var(--color-primary);
+  margin-top: 22px;
+  margin-bottom: 36px;
+}

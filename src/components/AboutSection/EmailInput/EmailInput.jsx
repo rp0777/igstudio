@@ -8,8 +8,11 @@ const EmailInput = () => {
       <div className={styles.icon}>
         <img src={MessageImg} alt="Email message icon" />
       </div>
-      <input placeholder="Enter your email address" />
-      <button>Let's Talk</button>
+      <input
+        className={styles.emailInput}
+        placeholder="Enter your email address"
+      />
+      <button className={styles.btn}>Let's Talk</button>
     </div>
   );
 };

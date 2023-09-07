@@ -7,7 +7,7 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-input {
+.emailInput {
   width: 295px;
   height: 100%;
   background-color: rgba(255, 255, 255, 0);
@@ -15,7 +15,7 @@ input {
   border-style: none;
 }
 
-input::placeholder {
+.emailInput::placeholder {
   color: var(--color-white) !important;
   font-size: 16px;
   font-weight: 500;
@@ -27,7 +27,7 @@ input::placeholder {
   margin-right: 12px;
 }
 
-button {
+.btn {
   width: 137px;
   height: 62px;
   border-radius: 43px;

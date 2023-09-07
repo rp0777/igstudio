@@ -2,6 +2,7 @@
   --color-primary: #e3b748;
   --color-black: #121212;
   --color-white: #fff;
+  --color-background: #1d1d1d;
 }
 
 *,
@@ -26,7 +27,7 @@ body {
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  background-color: var(--color-black);
+  background-color: var(--color-background);
   color: var(--color-white);
   overflow-x: hidden;
 }
