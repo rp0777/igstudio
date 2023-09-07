@@ -1,4 +1,5 @@
 .wrapper {
+  width: 1135px;
   display: flex;
   flex-direction: column;
   align-items: center;

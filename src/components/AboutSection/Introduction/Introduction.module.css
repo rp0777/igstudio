@@ -1,0 +1,11 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

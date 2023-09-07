@@ -1,0 +1,15 @@
+.wrapper {
+  width: 1132px;
+  height: 206px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subHeading {
+  width: 387px;
+  height: 174px;
+  font-size: 54px;
+  font-weight: 600px !important;
+  line-height: 87px;
+}

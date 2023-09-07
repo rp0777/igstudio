@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../Logo/Logo";
-import Button from "../Button/Button";
-import Menu from "../Menu/Menu";
+import Logo from "./Logo/Logo";
+import Button from "./Button/Button";
+import Menu from "./Menu/Menu";
 import styles from "../Navbar/Navbar.module.css";
 
 const Navbar = () => {

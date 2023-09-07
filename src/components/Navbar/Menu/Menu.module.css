@@ -1,10 +1,12 @@
 .wrapper {
+  width: 431px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 41px;
 }
 
 ul {
   list-style: none;
+  font-weight: 600;
 }
