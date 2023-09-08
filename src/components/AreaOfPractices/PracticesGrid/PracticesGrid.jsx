@@ -3,7 +3,6 @@ import styles from "./PracticesGrid.module.css";
 import { practices } from "../../../cardData/cardData";
 
 const PracticesGrid = ({ odd }) => {
-  const imgClass = odd ? "Odd" : "Even";
   return (
     <div className={styles.container}>
       <div className={styles.imgOne}>
