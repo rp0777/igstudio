@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
         {reasons.map((reason, index) => (
           <ReasonsCard
             key={index}
-            cardData={reason}
+            reason={reason}
             status={index === middleIndex - 1}
           />
         ))}

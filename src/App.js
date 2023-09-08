@@ -5,12 +5,14 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import MyIntroduction from "./components/MyIntroduction/MyIntroduction";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.landingPage}>
         <Navbar />
+
         <AboutSection />
       </div>
 
@@ -19,6 +21,8 @@ function App() {
       <WhyChooseUs />
 
       <AreaOfPractices />
+
+      <Testimonials />
     </div>
   );
 }

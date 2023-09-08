@@ -1,0 +1,44 @@
+.wrapper {
+  width: 359px;
+  padding-left: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+}
+
+.active {
+  background: #2e2e2e;
+}
+
+.inactive {
+  background-color: #1d1d1d;
+}
+
+.clientImg {
+  margin-top: 36px;
+  margin-bottom: 20px;
+}
+
+.clientName {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600 !important;
+  line-height: 24px;
+}
+
+.clientRole {
+  margin-bottom: 22px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 24px;
+}
+
+.clientComment {
+  width: 293px;
+  font-size: 14px;
+  font-weight: 500 !important;
+  line-height: 23px;
+}

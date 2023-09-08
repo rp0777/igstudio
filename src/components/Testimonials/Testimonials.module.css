@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+  margin: 92px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cards {
+  height: 368px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
