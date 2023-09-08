@@ -35,6 +35,13 @@
   margin-bottom: 26px;
 }
 
+.description {
+  margin-right: 43px;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 23px; /* 22.753px */
+}
+
 .btn {
   font-size: 14px;
   font-weight: 600;

@@ -1,20 +1,15 @@
 .wrapper {
-  margin: 85px 0px;
+  width: 1140px;
+  height: 1228px;
+  margin: 94px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 97px;
 }
 
 .heading {
+  margin-bottom: 65px;
   font-size: 54px;
   font-weight: 600;
   line-height: 77px;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 31px;
 }

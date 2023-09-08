@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import AboutSection from "./components/AboutSection/AboutSection";
 import MyIntroduction from "./components/MyIntroduction/MyIntroduction";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
+import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 
 function App() {
   return (
@@ -12,8 +13,12 @@ function App() {
         <Navbar />
         <AboutSection />
       </div>
+
       <MyIntroduction />
+
       <WhyChooseUs />
+
+      <AreaOfPractices />
     </div>
   );
 }

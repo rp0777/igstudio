@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Card.module.css";
+import styles from "./ReasonsCard.module.css";
 
 const Card = ({ cardData, status }) => {
   return (
@@ -14,7 +14,7 @@ const Card = ({ cardData, status }) => {
         <img src={cardData.img} alt="gift pic" />
       </div>
       <div className={styles.successRate}>{cardData.successRate}</div>
-      <div>{cardData.description}</div>
+      <div className={styles.description}>{cardData.description}</div>
       <button className={styles.btn}>{cardData.buttonLabel}</button>
     </div>
   );

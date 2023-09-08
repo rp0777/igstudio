@@ -1,6 +1,13 @@
 import giftImg from "../assets/gift.png";
 
-const cardData = [
+import businessLawOne from "../assets/practices/businessLawOne.png";
+import partnershipLaw from "../assets/practices/partnershipLaw.png";
+import realEstateLaw from "../assets/practices/realEstateLaw.png";
+import businessLawTwo from "../assets/practices/businessLawTwo.png";
+import landlordDisputes from "../assets/practices/landloardDisputes.png";
+import elderAbuse from "../assets/practices/elderAbuse.png";
+
+const reasons = [
   {
     id: "0",
     img: giftImg,
@@ -27,4 +34,37 @@ const cardData = [
   },
 ];
 
-export { cardData };
+const practices = [
+  {
+    id: "0",
+    title: "BUSINESS LAW",
+    img: businessLawOne,
+  },
+  {
+    id: "1",
+    title: "PARTNERSHIP LAW",
+    img: partnershipLaw,
+  },
+  {
+    id: "2",
+    title: "REAL ESTATE LAW",
+    img: realEstateLaw,
+  },
+  {
+    id: "3",
+    title: "BUSINESS LAW",
+    img: businessLawTwo,
+  },
+  {
+    id: "4",
+    title: "LANDLORD DISPUTES",
+    img: landlordDisputes,
+  },
+  {
+    id: "5",
+    title: "ELDER ABUSE",
+    img: elderAbuse,
+  },
+];
+
+export { reasons, practices };
