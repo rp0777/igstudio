@@ -13,6 +13,14 @@ import janeCooper from "../assets/testimonials/janeCooper.png";
 import devonLane from "../assets/testimonials/devonLane.png";
 import robertFox from "../assets/testimonials/robertFox.png";
 
+// Images of Attorneys
+import danialDef from "../assets/attorneys/danialDef.png";
+import sanfole from "../assets/attorneys/sanfole.png";
+import cesforila from "../assets/attorneys/cesforila.png";
+import colleen from "../assets/attorneys/colleen.png";
+import haldone from "../assets/attorneys/haldone.png";
+import nikJeo from "../assets/attorneys/nikJeo.png";
+
 const reasons = [
   {
     id: "0",
@@ -100,4 +108,43 @@ const testimonialsData = [
   },
 ];
 
-export { reasons, practices, testimonialsData };
+const attorneys = [
+  {
+    id: "0",
+    img: danialDef,
+    name: "Danial Def",
+    cases: 301,
+  },
+  {
+    id: "1",
+    img: sanfole,
+    name: "Sanfole",
+    cases: 850,
+  },
+  {
+    id: "2",
+    img: cesforila,
+    name: "Cesforila",
+    cases: 470,
+  },
+  {
+    id: "3",
+    img: colleen,
+    name: "Colleen",
+    cases: 180,
+  },
+  {
+    id: "4",
+    img: haldone,
+    name: "Haldone",
+    cases: 212,
+  },
+  {
+    id: "5",
+    img: nikJeo,
+    name: "Nik Jeo",
+    cases: 350,
+  },
+];
+
+export { reasons, practices, testimonialsData, attorneys };

@@ -6,6 +6,7 @@ import MyIntroduction from "./components/MyIntroduction/MyIntroduction";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 import Testimonials from "./components/Testimonials/Testimonials";
+import OurTeam from "./components/OurTeam/OurTeam";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <AreaOfPractices />
 
       <Testimonials />
+
+      <OurTeam />
     </div>
   );
 }

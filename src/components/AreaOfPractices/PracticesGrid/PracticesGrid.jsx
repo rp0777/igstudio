@@ -11,7 +11,7 @@ const PracticesGrid = ({ odd }) => {
           src={practices[0].img}
           alt={practices[0].title}
         />
-        <div className={styles.title}>{practices[0].title}</div>
+        <div className={styles.titleLarge}>{practices[0].title}</div>
       </div>
       <div className={styles.imgTwo}>
         <img
@@ -19,7 +19,7 @@ const PracticesGrid = ({ odd }) => {
           src={practices[1].img}
           alt={practices[1].title}
         />
-        <div className={styles.title}>{practices[1].title}</div>
+        <div className={styles.titleSmall}>{practices[1].title}</div>
       </div>
       <div className={styles.imgThree}>
         <img
@@ -27,7 +27,7 @@ const PracticesGrid = ({ odd }) => {
           src={practices[2].img}
           alt={practices[2].title}
         />
-        <div className={styles.title}>{practices[2].title}</div>
+        <div className={styles.titleSmall}>{practices[2].title}</div>
       </div>
       <div className={styles.imgFour}>
         <img
@@ -35,7 +35,7 @@ const PracticesGrid = ({ odd }) => {
           src={practices[3].img}
           alt={practices[3].title}
         />
-        <div className={styles.title}>{practices[3].title}</div>
+        <div className={styles.titleLarge}>{practices[3].title}</div>
       </div>
       <div className={styles.imgFive}>
         <img
@@ -43,7 +43,7 @@ const PracticesGrid = ({ odd }) => {
           src={practices[4].img}
           alt={practices[4].title}
         />
-        <div className={styles.title}>{practices[4].title}</div>
+        <div className={styles.titleLarge}>{practices[4].title}</div>
       </div>
       <div className={styles.imgSix}>
         <img
@@ -51,7 +51,7 @@ const PracticesGrid = ({ odd }) => {
           src={practices[5].img}
           alt={practices[5].title}
         />
-        <div className={styles.title}>{practices[5].title}</div>
+        <div className={styles.titleSmall}>{practices[5].title}</div>
       </div>
     </div>
   );

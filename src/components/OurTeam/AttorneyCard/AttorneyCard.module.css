@@ -1,0 +1,36 @@
+.wrapper {
+  width: 344px;
+  height: 109px;
+  padding: 18px 26px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.active {
+  background-color: var(--color-primary);
+}
+
+.active .attorneyName {
+  color: #373737;
+}
+
+.active .cases {
+  color: #000;
+}
+
+.attorneyName {
+  color: var(--color-white);
+  margin-top: 7px;
+  font-size: 24px;
+  font-weight: 600 !important;
+  line-height: 24px;
+}
+
+.cases {
+  color: var(--color-white);
+  margin-top: 6px;
+  font-size: 14px;
+}

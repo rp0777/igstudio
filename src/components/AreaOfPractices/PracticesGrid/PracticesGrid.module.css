@@ -37,10 +37,22 @@
   grid-column: 3 / 4;
 }
 
-.title {
+.titleLarge {
   position: relative;
-  left: 50px;
+  left: 35%;
   bottom: 50px;
+  font-size: 24px;
+  font-weight: 600 !important;
+  line-height: 24px;
+}
+
+.titleSmall {
+  position: relative;
+  left: 20%;
+  bottom: 50px;
+  font-size: 24px;
+  font-weight: 600 !important;
+  line-height: 24px;
 }
 
 img {
