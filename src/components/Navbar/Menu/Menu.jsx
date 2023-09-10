@@ -1,11 +1,15 @@
 import React from "react";
 import styles from "../Menu/Menu.module.css";
 
-const Menu = ({ links }) => {
+const Menu = ({ titles }) => {
   return (
     <ul className={styles.wrapper}>
-      {links.map((item) => {
-        return <li>{item}</li>;
+      {titles.map((item) => {
+        return (
+          <li className={styles.titles} key={item.id}>
+            {item.title}
+          </li>
+        );
       })}
     </ul>
   );

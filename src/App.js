@@ -9,6 +9,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import OurTeam from "./components/OurTeam/OurTeam";
 import Faq from "./components/Faq/Faq";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
       <Faq />
 
       <Newsletter />
+
+      <Footer />
     </div>
   );
 }

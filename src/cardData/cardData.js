@@ -21,6 +21,12 @@ import colleen from "../assets/attorneys/colleen.png";
 import haldone from "../assets/attorneys/haldone.png";
 import nikJeo from "../assets/attorneys/nikJeo.png";
 
+// Images of Social Media Handles
+import instagram from "../assets/socialhandles/instagram.png";
+import facebook from "../assets/socialhandles/facebook.png";
+import x from "../assets/socialhandles/x.png";
+import pinterest from "../assets/socialhandles/pinterest.png";
+
 const reasons = [
   {
     id: "0",
@@ -170,4 +176,54 @@ const accordionData = [
   },
 ];
 
-export { reasons, practices, testimonialsData, attorneys, accordionData };
+const menuTitles = [
+  {
+    id: "0",
+    title: "Home",
+  },
+  {
+    id: "1",
+    title: "Attorneys",
+  },
+  {
+    id: "2",
+    title: "Practice Areas",
+  },
+  {
+    id: "3",
+    title: "About Us",
+  },
+];
+
+const socialHandlesData = [
+  {
+    id: "0",
+    img: instagram,
+    name: "Instagram",
+  },
+  {
+    id: "1",
+    img: facebook,
+    name: "Facebook",
+  },
+  {
+    id: "2",
+    img: x,
+    name: "X",
+  },
+  {
+    id: "3",
+    img: pinterest,
+    name: "Pinterest",
+  },
+];
+
+export {
+  reasons,
+  practices,
+  testimonialsData,
+  attorneys,
+  accordionData,
+  menuTitles,
+  socialHandlesData,
+};
