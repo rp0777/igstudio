@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.userInput {
+  width: 276px;
+  height: 53px;
+}
+
+.userInput::placeholder {
+  padding-left: 23px !important;
+  color: #818181;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.userInput:nth-child(1) {
+  border-radius: 8px 0 0 8px;
+}
+
+.sendBtn {
+  width: 116px;
+  height: 53px;
+  border-style: none;
+  border-radius: 0 8px 8px 0;
+  background-color: var(--color-primary);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+}

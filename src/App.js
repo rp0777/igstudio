@@ -8,6 +8,7 @@ import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 import Testimonials from "./components/Testimonials/Testimonials";
 import OurTeam from "./components/OurTeam/OurTeam";
 import Faq from "./components/Faq/Faq";
+import Newsletter from "./components/Newsletter/Newsletter";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       <OurTeam />
 
       <Faq />
+
+      <Newsletter />
     </div>
   );
 }
