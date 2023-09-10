@@ -147,4 +147,27 @@ const attorneys = [
   },
 ];
 
-export { reasons, practices, testimonialsData, attorneys };
+const accordionData = [
+  {
+    question: "Do I need a personal injury report?",
+    answer:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
+  },
+  {
+    question: "How much is my case worth?",
+    answer:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
+  },
+  {
+    question: "What should I do right after car accident?",
+    answer:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
+  },
+  {
+    question: "How much is my case worth?",
+    answer:
+      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
+  },
+];
+
+export { reasons, practices, testimonialsData, attorneys, accordionData };

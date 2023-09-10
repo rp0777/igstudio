@@ -1,0 +1,28 @@
+.wrapper {
+  width: 1136px;
+  margin: 101px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.faqHeading {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+
+.faqContainer {
+  width: 1136px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faqIntro {
+  width: 568px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}

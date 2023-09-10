@@ -7,6 +7,7 @@ import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 import Testimonials from "./components/Testimonials/Testimonials";
 import OurTeam from "./components/OurTeam/OurTeam";
+import Faq from "./components/Faq/Faq";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <Testimonials />
 
       <OurTeam />
+
+      <Faq />
     </div>
   );
 }
